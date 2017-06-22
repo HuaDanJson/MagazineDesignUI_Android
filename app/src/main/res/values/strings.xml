@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">36_5.0UI</string>
+    <string-array name="navigations">
+        <item>军事</item>
+        <item>科技</item>
+        <item>娱乐</item>
+        <item>社会</item>
+        <item>体育</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syc.a36_50ui.CoordinatorActivity">
+
+    <!--FloatingActionButton:ImageView-->
+    <!--app:backgroundTint="#FFCE43":改变背景色-->
+    <!--app:borderWidth="0dp":边框的宽度-->
+    <!--app:elevation="4dp":阴影效果-->
+    <!--app:fabSize="auto":指定大小-->
+    <!--app:rippleColor="#46AEFF":指定点击时的背景色-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/floating"
+        android:src="@mipmap/floating"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
+        app:backgroundTint="#FFCE43"
+        app:backgroundTintMode="src_over"
+        app:borderWidth="0dp"
+        app:elevation="4dp"
+        app:fabSize="auto"
+        app:rippleColor="#46AEFF"
+        android:layout_height="wrap_content"/>
+
+</android.support.design.widget.CoordinatorLayout>
